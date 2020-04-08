@@ -1,0 +1,32 @@
+[
+  {
+    "label": "DEV Community",
+    "href": "https://dev.to/",
+    "dateCreated": "2019-11-04"
+  },
+  {
+    "label": "Overreacted",
+    "href": "https://overreacted.io/",
+    "dateCreated": "2019-11-04"
+  },
+  {
+    "label": "CSS-Tricks",
+    "href": "https://css-tricks.com/",
+    "dateCreated": "2019-11-04"
+  },
+  {
+    "label": "V8 JavaScript engine",
+    "href": "https://v8.dev/",
+    "dateCreated": "2019-11-04"
+  },
+  {
+    "label": "web.dev",
+    "href": "https://web.dev/",
+    "dateCreated": "2019-11-04"
+  },
+  {
+    "label": "DasSur.ma",
+    "href": "https://dassur.ma/",
+    "dateCreated": "2019-11-05"
+  }
+]

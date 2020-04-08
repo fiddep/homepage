@@ -1,0 +1,84 @@
+{
+  "e-books": [
+    {
+      "label": "professor frisby's mostly adequate guide to functional programming",
+      "href": "https://mostly-adequate.gitbooks.io/mostly-adequate-guide/content/",
+      "status": "done",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Structure and Interpretationof Computer Programs",
+      "href": "https://web.mit.edu/alexmv/6.037/sicp.pdf",
+      "status": "wait list",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Scalable and Modular Architecture for CSS",
+      "href": "http://smacss.com/",
+      "status": "done",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "JavaScript Allongé, the \"Six\" Edition",
+      "href": "https://leanpub.com/javascriptallongesix/read",
+      "status": "wait list",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Game Programming Patterns",
+      "href": "https://gameprogrammingpatterns.com/",
+      "status": "done",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Site Reliability Engineering",
+      "href": "https://landing.google.com/sre/sre-book/toc/index.html",
+      "status": "wait list",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Code: The Hidden Language of Computer Hardware and Software",
+      "href": "https://pdfs.semanticscholar.org/b48f/807baa50e9ee24a52191c6890a90e3106836.pdf",
+      "status": "wait list",
+      "dateCreated": "2019-11-04"
+    }
+  ],
+  "books": [
+    {
+      "label": "Object-Oriented-Software-Engineering",
+      "href": "https://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350",
+      "status": "current read",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Annotated-Turing",
+      "href": "https://www.amazon.com/Annotated-Turing-Through-Historic-Computability/dp/0470229055",
+      "status": "wait list",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Design Patterns",
+      "href": "https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612",
+      "status": "wait list",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Refactoring: Improving the Design of Existing Code",
+      "href": "https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672",
+      "status": "wait list",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Patterns of Enterprise Application Architecture",
+      "href": "https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420",
+      "status": "wait list",
+      "dateCreated": "2019-10-23"
+    },
+    {
+      "label": "Code Complete",
+      "href": "https://www.bokus.com/bok/9780735619678/code-complete-2nd-edition/",
+      "status": "wait list",
+      "dateCreated": "2019-11-04"
+    }
+  ]
+}

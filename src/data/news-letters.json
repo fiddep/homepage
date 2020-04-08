@@ -1,0 +1,32 @@
+[
+  {
+    "label": "React Status",
+    "href": "https://react.statuscode.com/",
+    "rss": "https://react.statuscode.com/rss"
+  },
+  {
+    "label": "Node Weekly",
+    "href": "https://nodeweekly.com/",
+    "rss": "https://nodeweekly.com/"
+  },
+  {
+    "label": "Javascript Weekly",
+    "href": "https://javascriptweekly.com/",
+    "rss": "https://javascriptweekly.com/"
+  },
+  {
+    "label": "PHP Weekly",
+    "href": "http://www.phpweekly.com/archive/latest.html",
+    "rss": "http://www.phpweekly.com/archive/latest.html"
+  },
+  {
+    "label": "mongoDB memo",
+    "href": "https://mongodb.email/",
+    "rss": "https://mongodb.email/"
+  },
+  {
+    "label": "Database Weekly",
+    "href": "https://dbweekly.com/",
+    "rss": "https://dbweekly.com/"
+  }
+]
