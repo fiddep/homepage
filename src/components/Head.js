@@ -11,7 +11,6 @@ export default withRouter(
       {description !== undefined && (
         <meta name="description" key="description" content={description} />
       )}
-
       {children}
     </Head>
   )

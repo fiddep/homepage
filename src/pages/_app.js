@@ -11,7 +11,7 @@ export default ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>PSTime</title>
+        <title>Homepage</title>
       </Head>
       <Header></Header>
       <main>
