@@ -31,18 +31,17 @@ const List = (props) => {
 };
 
 const Card = ({ item }) => {
-  const { href, label, scraper } = item;
+  const { href, label, pubDate } = item;
 
   return (
     <li className="card">
       <h3>
         <a href={href}>{label}</a>
       </h3>
-      {/*value && (
-        <small>
-          <b>Updated:</b> {value}
-        </small>
-      )*/}
+
+      <small>
+        <b>Updated:</b> {new Date(pubDate).toLocaleDateString("sv-se")}
+      </small>
     </li>
   );
 };

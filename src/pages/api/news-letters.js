@@ -26,23 +26,25 @@ const withHttpCache = (ttl = 60) => (handler) => (req, res) => {
   return handler(req, res);
 };
 
-const withContentJson = (handler) => (req, res) => {
+const withContentJson = () => (handler) => (req, res) => {
   res.setHeader("Content-Type", "application/json");
   return handler(req, res);
 };
 
 const controller = async (req, res) => {
   if (req.method === "GET") {
-    console.log("hej");
-    let feed = await parser.parseURL("https://react.statuscode.com/rss");
-    console.log(feed.items[0].pubDate);
+    const promises = data.map(async (site) => {
+      let feed = await parser.parseURL("https://react.statuscode.com/rss");
+      return { ...site, pubDate: feed.items[0].pubDate };
+    });
+    const resolvedData = await Promise.all(promises);
     res.statusCode = 200;
-    res.end(JSON.stringify(data));
+    res.end(JSON.stringify(resolvedData));
   }
 };
 
 export default compose(
-  withCdnCache(),
-  withHttpCache(),
-  withContentJson
+  withCdnCache(30),
+  withHttpCache(30),
+  withContentJson()
 )(controller);

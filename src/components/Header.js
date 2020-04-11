@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const Header = () => (
   <header>
@@ -7,16 +7,18 @@ const Header = () => (
       <ul className="horizontalList defaultListStyle">
         <NavItem to="books">Books</NavItem>
         <NavItem to="_blank">Blog</NavItem>
-        <NavItem to="newsletters">News Letters</NavItem>
+        <NavItem to="news-letters">News Letters</NavItem>
         <NavItem to="_blank">Open Projects</NavItem>
       </ul>
     </nav>
   </header>
 );
 
-const NavItem = props => (
+const NavItem = (props) => (
   <li>
-    <Link to={props.to}>{props.children}</Link>
+    <Link href={props.to}>
+      <a>{props.children}</a>
+    </Link>
   </li>
 );
 
